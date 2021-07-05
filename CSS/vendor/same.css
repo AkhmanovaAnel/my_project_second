@@ -1,0 +1,57 @@
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.section-padding {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.wrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: flex;
+    color: #fff;
+    background-color: transparent;
+    width: 120px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #fff;
+    border-radius: 5%;
+    transition: .2s;
+}
+
+.btn:hover {
+    opacity: 1;
+    border: 3px solid #fff;
+    color: black;
+    background-color: #fff;
+}
+
+.contact-btn {
+    background-color: #0092ca;
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500px;
+    letter-spacing: 1px;
+    border-radius: 5%;
+    float: right;
+    position: relative;
+    transition: .3s;
+}
+
+.contact-btn:hover {
+    background-color: #222836;
+}
